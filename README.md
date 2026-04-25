@@ -29,7 +29,7 @@ The following properties can be set in the plugin's configuration screen:
 
 To reset the running averages for boat speed and wind speed you can call the following handler:
 
-`http://<signalk-server>/signalk/v1/api/reset-signalk-speed-wind-averaging`
+`http://<signalk-server>/signalk/v1/api/reset-signalk-speed-wind-averaging-sliding`
 
 ## How this varies from Boatly/signalk-speed-wind-averaging
 The original Boatly plugin captures samples over the [sample_period] amount of time.  When the total samples have been taken, the averages are transmitted and the buffer is emptied and a new sample widnw begins.  This is reasonable and useful for short sample period, however, when averaging over 15 mnutes, and hour, etc, it may be more useful to know what the averages were over the last [sample period] amount of time, not just what the averages were over a set [sample_period] amount of time
