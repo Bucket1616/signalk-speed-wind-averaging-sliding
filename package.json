@@ -1,16 +1,16 @@
 {
-  "name": "signalk-speed-wind-averaging",
-  "version": "1.0.7",
-  "description": "SignalK plugin that provides calculates average boat speed and wind speed - all time and over a period.",
+  "name": "signalk-speed-wind-averaging-sliding",
+  "version": "0.1.1",
+  "description": "SignalK plugin that provides calculates average boat speed and wind speed - all time and over a sliding window period.",
   "main": "index.js",
   "scripts": {
     "format": "prettier-standard 'src/*.js'",
     "build": "tsc",
     "prepare": "tsc"
   },
-  "homepage": "https://github.com/boatly/signalk-speed-wind-averaging",
-  "bugs": "https://github.com/boatly/signalk-speed-wind-averaging/issues",
-  "author": "Peter Sedman <peter.sedman@boatly.com>",
+  "homepage": "https://github.com/Bucket1616/signalk-speed-wind-averaging-sliding",
+  "bugs": "https://github.com/Bucket1616/signalk-speed-wind-averaging-sliding/issues",
+  "author": "Michael Pail <mike@onanewtack.com>",
   "license": "ISC",
   "keywords": [
     "signalk-node-server-plugin",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/boatly/signalk-speed-wind-averaging"
+    "url": "https://github.com/Bucket1616/signalk-speed-wind-averaging-sliding"
   },
   "dependencies": {
     "baconjs": "^0.7.88"
