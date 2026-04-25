@@ -1,6 +1,6 @@
 # signalk-speed-wind-averaging-sliding
 
-This is a derivative of Boatly/signalk-speed-wind-averaging.
+This is a derivative of https://github.com/Boatly/signalk-speed-wind-averaging.
 
 ## Features
 SignalK plugin to calculate average boat speed and wind speed over a sliding window,defined period.  The plugin receives boat speed and wind speed deltas every seconds and calculates running averages from that data.
