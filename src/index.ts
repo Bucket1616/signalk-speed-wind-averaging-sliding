@@ -11,8 +11,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const baconjs_1 = require("baconjs");
 
-const PLUGIN_ID = 'signalk-speed-wind-averaging';
-const PLUGIN_NAME = 'Calculate boat & wind speed averages.';
+const PLUGIN_ID = 'signalk-speed-wind-averaging-sliding';
+const PLUGIN_NAME = 'Calculate boat & wind speed averages on a sliding time window.';
 
 function default_1(app) {
     let unsubscribe;
