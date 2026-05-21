@@ -1,12 +1,12 @@
 {
   "name": "signalk-speed-wind-averaging-sliding",
   "version": "0.1.1",
-  "description": "SignalK plugin that provides calculates average boat speed and wind speed - all time and over a sliding window period.",
-  "main": "index.js",
+  "description": "SignalK plugin that calculates average boat speed and wind speed - all time and over a sliding window period.",
+  "main": "built/index.js",
   "scripts": {
-    "format": "prettier-standard 'src/*.js'",
+    "format": "prettier-standard 'src/**/*.ts'",
     "build": "tsc",
-    "prepare": "tsc"
+    "prepublishOnly": "npm run build"
   },
   "homepage": "https://github.com/Bucket1616/signalk-speed-wind-averaging-sliding",
   "bugs": "https://github.com/Bucket1616/signalk-speed-wind-averaging-sliding/issues",
@@ -15,19 +15,22 @@
   "keywords": [
     "signalk-node-server-plugin",
     "signal k",
-    "signalk"
+    "signalk",
+    "signalk-category-instruments"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bucket1616/signalk-speed-wind-averaging-sliding"
+    "url": "https://github.com"
   },
   "dependencies": {
-    "baconjs": "^0.7.88"
+    "baconjs": "^3.0.17"
   },
   "devDependencies": {
-    "@types/baconjs": "^0.7.33",
-    "@types/node": "^8.0.0",
-    "prettier-standard": "^8.0.1",
-    "typescript": "^3.0.3"
-  }
+    "@types/node": "^20.0.0",
+    "prettier-standard": "^16.4.1",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "built/"
+  ]
 }
